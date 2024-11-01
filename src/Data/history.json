@@ -1,0 +1,21 @@
+[
+    {
+      "role": "Associate IT Engineer (Java-Azure Dev.)",
+      "organisation": "Kaiser Permenante",
+      "startDate": "Feb, 2024",
+      "endDate": "Present",
+      "experiences": ["Worked in MPC Application", "Designed the user Friendly UI Screens for multiple Applications"],
+      "imageSrc": "history/kaiserpermenante.png"
+    },
+    {
+      "role": "Assistant Manager",
+      "organisation": "Jio Platforms Ltd",
+      "startDate": "July, 2022",
+      "endDate": "Dec, 2023",
+      "experiences": [
+        "Worked as Techno-Function in SAP",
+        "Worked in Java Backend Development"
+      ],
+      "imageSrc": "history/Jio.png"
+    }
+  ]
