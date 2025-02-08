@@ -15,6 +15,9 @@
     font-weight: 600;
     text-decoration: none;
     color: var(--color-text);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3)); 
+    animation: floating 4s ease-in-out infinite; 
   }
   
   
