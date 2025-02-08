@@ -122,6 +122,72 @@
     object-fit: cover;  
   }
 }
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 80px;
+  }
+
+  .title {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+
+  .projects {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .slider {
+    height: 40vh;
+    box-shadow: none;
+    filter: none;
+  }
+
+  .slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .content {
+    width: 100%;
+    left: 5%;
+    top: 60%;
+    font-size: 12px;
+    padding: 0.5rem;
+  }
+
+  @keyframes slide-up {
+    0% {
+      top: 75%;
+    }
+    100% {
+      top: 50%;
+    }
+  }
+
+  .arrow,
+  .arrowprev,
+  .arrownext {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .next {
+    right: 0.5rem;
+  }
+
+  .prev {
+    left: 0.5rem;
+  }
+
+  hr {
+    width: 80%;
+  }
+}
 
 .slide img {
   width: 100%;  
@@ -164,7 +230,7 @@
 
 @media screen and (max-width: 830px) {
   .content {
-    width: 50%;
+    width: 80%;
     padding: 0.5rem;
   }
 }
