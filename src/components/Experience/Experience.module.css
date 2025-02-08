@@ -123,3 +123,72 @@
     gap: 9px;
   }
 }
+@media screen and (max-width: 600px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    text-align: left;
+  }
+
+  .title {
+    font-size: 24px;
+    letter-spacing: 1.2px;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+  }
+
+  .skills {
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .skillImageContainer {
+    width: 90px;
+    height: 90px;
+  }
+
+  .skillImageContainer img {
+    width: 60px;
+  }
+
+  .skill p {
+    font-size: 20px;
+  }
+
+  .history {
+    width: 100%;
+    gap: 15px;
+  }
+
+  .historyItem {
+    flex-direction: column;
+    align-items: start;
+    padding: 18px;
+    gap: 12px;
+    text-align: start;
+  }
+
+  .historyItem img {
+    width: 80px;
+  }
+
+  .historyItemDetails h3 {
+    font-size: 24px;
+  }
+
+  .historyItemDetails p {
+    font-size: 18px;
+  }
+
+  .historyItemDetails ul {
+    font-size: 20px;
+    margin-left: 0;
+    list-style-position: inside;
+  }
+}
