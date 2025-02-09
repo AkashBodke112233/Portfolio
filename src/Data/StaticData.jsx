@@ -19,7 +19,8 @@ export const HeroData = {
     },
     path : {
         imgUrl : "hero/heroImage.png",
-        resumeUrl : "/resume.pdf",
+        preview_resumeUrl : "https://drive.google.com/file/d/1yKyTZOLMZ47AvqLKmtx0gmd2w7QVqNHo/preview",
+        download_resumeUrl :"https://drive.google.com/uc?export=download&id=1yKyTZOLMZ47AvqLKmtx0gmd2w7QVqNHo"
     }
 };
 
@@ -186,7 +187,8 @@ export const projects = [
       export const errorBoundary = {
         message : {
           exceptionMessage : "ErrorBoundary caught an error",
-          errorMessage : "Something went wrong."
+          errorMessage : "Something went wrong.",
+          resumeFetchError : "Error fetching resume:",
         }
       }
 
