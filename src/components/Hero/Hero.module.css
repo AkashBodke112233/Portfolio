@@ -197,8 +197,9 @@
     }
 
     .contactBtn {
-        font-size: 18px;
+        font-weight:bolder;
         padding: 14px 22px;
+        align-content: center;
     }
 
     .heroImg {
@@ -242,8 +243,9 @@
     }
 
     .contactBtn {
-        font-size: 16px;
         padding: 12px 20px;
+        font-weight:bolder;
+        align-content: center;
     }
 
     .heroImg {
