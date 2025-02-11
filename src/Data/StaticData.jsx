@@ -62,8 +62,8 @@ export const ContactData = {
         gitImg : "contact/githubIcon.png"
     },
     Urls : {
-      mailtTo : "mailto:myemail@email.com",
-      mail : "akashbodke0211@email.com",
+      mailtTo : "mailto:akashbodke0211@gmail.com",
+      mail : "akashbodke0211@gmail.com",
       linkedinUrl : "https://www.linkedin.com/in/akash-bodke-52b075170?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       linkedinDesc : "linkedin.com/Akash-Bodke",
       giturl : "https://github.com/AkashBodke112233/Portfolio",
