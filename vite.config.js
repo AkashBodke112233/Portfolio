@@ -7,5 +7,8 @@ export default defineConfig({
     modules :{
       localsConvention: "camelCase",
     },
+  },
+  build: {
+    sourcemap: false
   }
 })
